@@ -30,7 +30,8 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     debug.performance.tuning=1 \
     debug.egl.profiler=1 \
     debug.egl.hw=1 \
-    debug.composition.type=gpu
+    debug.composition.type=gpu \
+    debug.hwui.renderer=skiavk
 
 # IMS
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
